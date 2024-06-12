@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #1F2937;
+    margin: 0;
+}
+
+#header {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-between;
+    padding-left: 24px;
+    padding-right: 24px;
+    align-items: center;
+}
+
+#header #right-links {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+#header #right-links p {
+    color: #e5e7eb;
+    font-size: 18px;
+    margin-left: auto;
+}
+
+#header #logo h3 {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin-right: auto;
+}
+
+#hero {
+    padding-left: 24px;
+    padding-right: 24px;
+}
